@@ -10,10 +10,12 @@ export class MenuBuilderService {
 
 
   buildMenu(): Menu[] {
-    let menus: Menu[] = [];
-    this.menuServices.map((menuService: MenuService) => {
-      menus.push(...menuService.getMenus());
-    });
-    return menus;
+    if (this.menuServices) {
+      return this.menuServices.reduce((menus, menuService: MenuService) => {
+        return menus.concat(menuService.getMenus());
+      }, []);
+    } else {
+      return [];
+    }
   }
 }
