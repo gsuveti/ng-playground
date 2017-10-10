@@ -3,7 +3,7 @@ import {NgModule} from '@angular/core';
 
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
-import {SampleModule} from '@ng-playground/sample-feature/public_api';
+import {CoolModule} from '@ng-playground/cool-feature/public_api';
 
 @NgModule({
   declarations: [
@@ -11,7 +11,7 @@ import {SampleModule} from '@ng-playground/sample-feature/public_api';
   ],
   imports: [
     BrowserModule,
-    SampleModule,
+    CoolModule,
     AppRoutingModule
   ],
   providers: [],

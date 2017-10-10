@@ -1,0 +1,20 @@
+{
+    "project": {
+        "name": "cool-feature"
+    },
+    "apps": [
+        {
+            "root": "src",
+            "prefix": "cf"
+        }
+    ],
+    "defaults": {
+        "styleExt": "scss",
+        "prefixInterfaces": false,
+        "component": {
+            "inlineStyle": false,
+            "inlineTemplate": false
+        }
+
+    }
+}
