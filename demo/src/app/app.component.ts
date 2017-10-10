@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {MenuBuilderService} from './menu-builder/menu-builder.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  menus: Menu[]
+
+  constructor(private menuBuilderService: MenuBuilderService) {
+    this.menus = this.menuBuilderService.buildMenu();
+  }
 }

@@ -6,4 +6,11 @@
 </div>
 
 <router-outlet></router-outlet>
-<a routerLink="/sample">lazy module</a>
+
+<ol>
+  <li><a routerLink="/sample">lazy module</a></li>
+  <li *ngFor="let menu of menus">
+    <a [routerLink]="menu.link">{{menu.label}}</a>
+  </li>
+</ol>
+
