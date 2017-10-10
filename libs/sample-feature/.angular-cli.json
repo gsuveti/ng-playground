@@ -1,0 +1,20 @@
+{
+    "project": {
+        "name": "sample-feature"
+    },
+    "apps": [
+        {
+            "root": "src",
+            "prefix": "sf"
+        }
+    ],
+    "defaults": {
+        "styleExt": "scss",
+        "prefixInterfaces": false,
+        "component": {
+            "inlineStyle": false,
+            "inlineTemplate": false
+        }
+
+    }
+}

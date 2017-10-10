@@ -9,7 +9,17 @@
       "outDir": "dist",
       "assets": [
         "assets",
-        "favicon.ico"
+        "favicon.ico",
+        {
+          "glob": "**/i18n/*.json",
+          "input": "../node_modules/@ng-playground/",
+          "output": "./"
+        },
+        {
+          "glob": "**/assets/*.*",
+          "input": "../node_modules/@ng-playground/",
+          "output": "./"
+        }
       ],
       "index": "index.html",
       "main": "main.ts",
