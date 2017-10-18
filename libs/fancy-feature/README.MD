@@ -1,6 +1,6 @@
 # Cool feature
 
-This is an angular feature module. It was build with [ng-library-builder](https://www.npmjs.com/package/ng-library-builder) and used in the [demo](https://www.npmjs.com/package/ng-library-builder) app.
+This is an angular feature module. It was build with [ng-library-builder](https://www.npmjs.com/package/ng-library-builder) and used in the [demo](https://github.com/gsuveti/ng-playground/tree/master/demo) app.
 
 
 ## Eager loading usage
