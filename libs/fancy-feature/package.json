@@ -1,0 +1,29 @@
+{
+  "name": "@ng-playground/fancy-feature",
+  "version": "1.0.0",
+  "author": {
+    "name": "georgesuveti",
+    "email": "george.suveti@irian.ro"
+  },
+  "scripts": {
+    "build": "ng-lb --rootDir ./",
+    "pblsh": "ng-lb --publish --rootDir ./"
+  },
+  "dependencies": {
+    "@angular/common": "^4.3.6",
+    "@angular/core": "^4.3.6",
+    "@angular/forms": "^4.3.6",
+    "@angular/http": "^4.3.6",
+    "@angular/platform-browser": "^4.3.6",
+    "@angular/router": "^4.3.6",
+    "@ng-playground/language-synchronizer": "^1.0.1",
+    "@ngx-translate/core": "^8.0.0",
+    "@ngx-translate/http-loader": "^2.0.0",
+    "ng-packagr": "^1.4.1",
+    "rxjs": "^5.4.3",
+    "zone.js": "^0.8.17"
+  },
+  "devDependencies": {
+    "ng-library-builder": "^0.0.12"
+  }
+}

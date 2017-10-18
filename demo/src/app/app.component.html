@@ -1,16 +1,23 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
-    Welcome to {{title}}!
+    <span>{{ 'app.hello' | translate }}</span>
   </h1>
 </div>
 
-<router-outlet></router-outlet>
+<div class="links">
+  <a routerLink="/">home - display eager loaded module (cool module)</a>
+  <a routerLink="/sample">lazy loading module with assets (sample module)</a>
+  <a routerLink="/fancy">lazy loading with i18n(fancy module)</a>
+  <!--<a *ngFor="let menu of menus" [routerLink]="menu.link">{{menu.label}}</a>-->
+  <br>
+  <span>change language: <button (click)="changeLanguage()">{{lang}}</button></span>
+</div>
 
-<ol>
-  <li><a routerLink="/sample">lazy module</a></li>
-  <li *ngFor="let menu of menus">
-    <a [routerLink]="menu.link">{{menu.label}}</a>
-  </li>
-</ol>
+<div class="content">
+  <router-outlet></router-outlet>
+
+</div>
+
+
 

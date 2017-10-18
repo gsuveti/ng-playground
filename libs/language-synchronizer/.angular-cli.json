@@ -1,0 +1,20 @@
+{
+    "project": {
+        "name": "language-synchronizer"
+    },
+    "apps": [
+        {
+            "root": "src",
+            "prefix": "ls"
+        }
+    ],
+    "defaults": {
+        "styleExt": "scss",
+        "prefixInterfaces": false,
+        "component": {
+            "inlineStyle": false,
+            "inlineTemplate": false
+        }
+
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "project": {
+        "name": "fancy-feature"
+    },
+    "apps": [
+        {
+            "root": "src",
+            "prefix": "ff"
+        }
+    ],
+    "defaults": {
+        "styleExt": "scss",
+        "prefixInterfaces": false,
+        "component": {
+            "inlineStyle": false,
+            "inlineTemplate": false
+        }
+
+    }
+}
